@@ -14,5 +14,5 @@ def recommendations(customer_id):
     recs = run_pipeline(customer_id)
     return render_template("recommendations.html", customer_id=customer_id, recs=recs)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
